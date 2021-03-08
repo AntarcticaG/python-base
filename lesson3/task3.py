@@ -13,3 +13,4 @@ def thesaurus(*args):
 vocabl = thesaurus("Иван", "Мария", "Петр", "Илья")
 for i in vocabl:
     print(i, vocabl[i])
+
