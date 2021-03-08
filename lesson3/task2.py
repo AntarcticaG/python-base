@@ -18,3 +18,4 @@ def num_translate_adv(word):
 
 
 num_translate_adv('one')
+
