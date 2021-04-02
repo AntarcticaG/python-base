@@ -11,14 +11,13 @@
 #    |      |--index.html
 
 
-import os
+
 import shutil
-
 import os
 
-for root, dirs, files in os.walk("my_project"):
-    for file in files:
-        if file.endswith(".html"):
-             print(os.path.join(root, file))
 
-
+for i in os.listdir('my_project'):
+    template_dir = os.path.join('my_project', i, 'templates', i)
+    if os.path.isdir(template_dir):
+        templates = os.path.join('my_project', 'templates')
+        shutil.copytree(template_dir, os.path.join(templates, i))
