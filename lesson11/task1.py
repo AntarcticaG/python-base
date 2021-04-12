@@ -41,4 +41,3 @@ dates = ['01-10-2020', '11-15-2000', '31-12-2019', '1-9-2000']
 for date in dates:
     dt = Date(date)
     print(dt)
-

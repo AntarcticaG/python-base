@@ -83,3 +83,4 @@ a.add('Warehouse', Printer(123, "Белый", "Sony", "10000", "2015", "Лазе
 a.Print_item()
 a.moving()
 a.Print_item()
+
